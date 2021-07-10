@@ -1,0 +1,8 @@
+// Build base game loop
+  -Turn timer
+  -Players can select attacks
+  -Player Damage is calculated depending on who loses
+// Build landing page
+// Build items interactions
+// Build skills interactions
+// Build server integration.
