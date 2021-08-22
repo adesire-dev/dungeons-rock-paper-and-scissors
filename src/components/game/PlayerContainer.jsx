@@ -1,8 +1,10 @@
 import React from 'react';
 
+import PlayerChoiceButtons from './PlayerChoiceButtons';
+
 import './PlayerContainer.scss';
 
-const PlayerContainer = ({ player }) => {
+const PlayerContainer = ({ player, makeChoice, currentChoice }) => {
     return (
         <div className='playerContainer'>
             <h2>Name: {player.name}</h2>
@@ -10,6 +12,8 @@ const PlayerContainer = ({ player }) => {
             <ul>
                 <li>Health: {player.health}</li>
             </ul>
+
+            <PlayerChoiceButtons makeChoice={makeChoice} currentChoice={currentChoice}/>
         </div>
     );
 }

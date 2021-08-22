@@ -1,10 +1,13 @@
 import './App.css';
-import GameView from './components/game/GameView';
+import BattleView from './components/game/BattleView';
 
 function App() {
+  // state that shows which view to display
+
+  // have the logic that shows the correct view to the player
   return (
     <div className="App">
-      <GameView />
+      <BattleView />
     </div>
   );
 }
